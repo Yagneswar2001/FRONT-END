@@ -1,0 +1,44 @@
+.parent{ 
+    display: flex;
+    flex-direction: row;
+   width: 800px;
+   
+}
+img{
+    border-radius: 100%;
+    border: 2px solid rgba(165, 42, 42, 0.445) ;
+    width: 200px;
+     height: 200px;
+     background-color: white;
+}
+.parent>div{
+    width: auto;
+    border: 2px double black;
+    padding: 2%;
+    margin:6%;
+    text-align: center;
+    /* justify-content: space-evenly; */
+    background-color:yellowgreen;
+}
+h2,h3,p{
+    color:lightseagreen;
+    /* background-color: white;
+} */
+button{
+    color:darkblue;
+    /* background-color: white; */
+}
+/* *{
+    background-color: burlywood;
+} */
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+    .parent>div{
+        width:80%;
+    }
+}

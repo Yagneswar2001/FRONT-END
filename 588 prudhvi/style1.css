@@ -1,0 +1,21 @@
+.card{
+    display: flex;
+    flex-direction: row;
+}
+.card>div{
+    width: auto;
+    border: 2px double black;
+    margin:1%;
+    padding: 1%;
+}
+@media only screen and (min-width:481px) and (max-width:768px) {
+    
+    .card{
+        display: flex;
+        flex-direction: row;
+    }
+    .card>div{
+        width:50%;
+       
+    }
+}
